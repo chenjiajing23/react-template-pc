@@ -4834,7 +4834,7 @@ glob@7.1.4:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
+glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.1.7:
   version "7.1.7"
   resolved "https://registry.nlark.com/glob/download/glob-7.1.7.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fglob%2Fdownload%2Fglob-7.1.7.tgz#3b193e9233f01d42d0b3f78294bbeeb418f94a90"
   integrity sha1-Oxk+kjPwHULQs/eClLvutBj5SpA=
@@ -4995,17 +4995,18 @@ good-apis@^0.0.11:
   resolved "https://registry.nlark.com/good-apis/download/good-apis-0.0.11.tgz#7408225dcf847386d4aad7c1d746e87296af3a44"
   integrity sha1-dAgiXc+Ec4bUqtfB10bocpavOkQ=
 
-good-mock@^1.2.10:
-  version "1.2.10"
-  resolved "https://registry.nlark.com/good-mock/download/good-mock-1.2.10.tgz#36ba145d075dae56bcd4aaf3fa6d54128a173a87"
-  integrity sha1-NroUXQddrla81Krz+m1UEooXOoc=
+good-mock@^1.2.12:
+  version "1.2.12"
+  resolved "https://registry.nlark.com/good-mock/download/good-mock-1.2.12.tgz#7df3445fce6d287633445840b2b185b5604e62b5"
+  integrity sha1-ffNEX85tKHYzRFhAsrGFtWBOYrU=
   dependencies:
-    chalk "^4.1.0"
+    chalk "^4.1.1"
     express "^4.17.1"
     get-port "^5.1.1"
-    glob "^7.1.6"
-    nodemon "^2.0.7"
+    glob "^7.1.7"
+    nodemon "^2.0.12"
     path-to-regexp "^6.2.0"
+    ts-node "^10.1.0"
 
 got@^9.6.0:
   version "9.6.0"
@@ -5292,7 +5293,7 @@ http-parser-js@>=0.5.1:
   resolved "https://registry.npm.taobao.org/http-parser-js/download/http-parser-js-0.5.3.tgz#01d2709c79d41698bb01d4decc5e9da4e4a033d9"
   integrity sha1-AdJwnHnUFpi7AdTezF6dpOSgM9k=
 
-http-proxy-middleware@*, http-proxy-middleware@^2.0.0:
+http-proxy-middleware@*:
   version "2.0.0"
   resolved "https://registry.nlark.com/http-proxy-middleware/download/http-proxy-middleware-2.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhttp-proxy-middleware%2Fdownload%2Fhttp-proxy-middleware-2.0.0.tgz#20d1ac3409199c83e5d0383ba6436b04e7acb9fe"
   integrity sha1-INGsNAkZnIPl0Dg7pkNrBOesuf4=
@@ -5307,6 +5308,17 @@ http-proxy-middleware@^1.0.0:
   version "1.3.1"
   resolved "https://registry.nlark.com/http-proxy-middleware/download/http-proxy-middleware-1.3.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhttp-proxy-middleware%2Fdownload%2Fhttp-proxy-middleware-1.3.1.tgz#43700d6d9eecb7419bf086a128d0f7205d9eb665"
   integrity sha1-Q3ANbZ7st0Gb8IahKND3IF2etmU=
+  dependencies:
+    "@types/http-proxy" "^1.17.5"
+    http-proxy "^1.18.1"
+    is-glob "^4.0.1"
+    is-plain-obj "^3.0.0"
+    micromatch "^4.0.2"
+
+http-proxy-middleware@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.nlark.com/http-proxy-middleware/download/http-proxy-middleware-2.0.1.tgz?cache=0&sync_timestamp=1625172260511&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhttp-proxy-middleware%2Fdownload%2Fhttp-proxy-middleware-2.0.1.tgz#7ef3417a479fb7666a571e09966c66a39bd2c15f"
+  integrity sha1-fvNBekeft2ZqVx4Jlmxmo5vSwV8=
   dependencies:
     "@types/http-proxy" "^1.17.5"
     http-proxy "^1.18.1"
@@ -6975,10 +6987,10 @@ node-releases@^1.1.52, node-releases@^1.1.61, node-releases@^1.1.71:
   resolved "https://registry.nlark.com/node-releases/download/node-releases-1.1.73.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnode-releases%2Fdownload%2Fnode-releases-1.1.73.tgz#dd4e81ddd5277ff846b80b52bb40c49edf7a7b20"
   integrity sha1-3U6B3dUnf/hGuAtSu0DEnt96eyA=
 
-nodemon@^2.0.7:
-  version "2.0.8"
-  resolved "https://registry.nlark.com/nodemon/download/nodemon-2.0.8.tgz?cache=0&sync_timestamp=1624971228430&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnodemon%2Fdownload%2Fnodemon-2.0.8.tgz#95719984d4ae57c2b5ce2a1e1bf1ca14de36f500"
-  integrity sha1-lXGZhNSuV8K1zioeG/HKFN429QA=
+nodemon@^2.0.12:
+  version "2.0.12"
+  resolved "https://registry.nlark.com/nodemon/download/nodemon-2.0.12.tgz#5dae4e162b617b91f1873b3bfea215dd71e144d5"
+  integrity sha1-Xa5OFithe5Hxhzs7/qIV3XHhRNU=
   dependencies:
     chokidar "^3.2.2"
     debug "^3.2.6"
@@ -10322,6 +10334,22 @@ ts-node@^10.0.0:
   version "10.0.0"
   resolved "https://registry.nlark.com/ts-node/download/ts-node-10.0.0.tgz#05f10b9a716b0b624129ad44f0ea05dac84ba3be"
   integrity sha1-BfELmnFrC2JBKa1E8OoF2shLo74=
+  dependencies:
+    "@tsconfig/node10" "^1.0.7"
+    "@tsconfig/node12" "^1.0.7"
+    "@tsconfig/node14" "^1.0.0"
+    "@tsconfig/node16" "^1.0.1"
+    arg "^4.1.0"
+    create-require "^1.1.0"
+    diff "^4.0.1"
+    make-error "^1.1.1"
+    source-map-support "^0.5.17"
+    yn "3.1.1"
+
+ts-node@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.nlark.com/ts-node/download/ts-node-10.1.0.tgz?cache=0&sync_timestamp=1625867743391&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fts-node%2Fdownload%2Fts-node-10.1.0.tgz#e656d8ad3b61106938a867f69c39a8ba6efc966e"
+  integrity sha1-5lbYrTthEGk4qGf2nDmoum78lm4=
   dependencies:
     "@tsconfig/node10" "^1.0.7"
     "@tsconfig/node12" "^1.0.7"
